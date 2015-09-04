@@ -2,8 +2,12 @@
 % MarkDown
 % Joan Ordinas
 
-# Algunes alternatives més complexes a _MarkDown_
+# Algunes alternatives a _MarkDown_
 
-- reStructuredText
 - Texinfo
+- reStructuredText
 - AsciiDoc
+
+<!--
+vim:syntax=markdown:et:ts=4:sw=4:ai
+-->

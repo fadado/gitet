@@ -2,8 +2,18 @@
 % Git
 % Joan Ordinas
 
-# Algunes alternatives més complexes a _MarkDown_
+# Què és Git?
 
-- reStructuredText
-- Texinfo
-- AsciiDoc
+- Un gestor de continguts
+
+# Què veurem&hellip;
+
+- Exemples
+
+# Què _no_ veurem&hellip;
+
+- Detalls tècnics
+
+<!--
+vim:syntax=markdown:et:ts=4:sw=4:ai
+-->
