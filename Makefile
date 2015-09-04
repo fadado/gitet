@@ -8,7 +8,7 @@
 
 PANDOC=
 
-TARGETS=gitet.html markdown.html
+TARGETS=slides/gitet.html slides/markdown.html
 
 ########################################################################
 # Rules
@@ -16,10 +16,10 @@ TARGETS=gitet.html markdown.html
 
 all: $(TARGETS)
 
-gitet.html: gitet.md
+slides/gitet.html: gitet.md
 	pandoc -s --webtex -i -t slidy $< -o $@
 
-markdown.html: markdown.md
+slides/markdown.html: markdown.md
 	pandoc -s -i -t dzslides $< -o $@
 
 build: clean all
