@@ -6,7 +6,16 @@
 # Macros
 ########################################################################
 
-PANDOC=
+SLIDY=pandoc --standalone --to slidy
+DZSLIDES=pandoc --standalone --to dzslides
+
+#S5=pandoc --standalone --to s5
+#SLIDEOUS=pandoc --standalone --to slideous
+#REVEALJS=pandoc --standalone --to revealjs
+
+INCREMENTAL=#--incremental
+
+PANDOC=$(DZSLIDES)
 
 TARGETS=slides/gitet.html slides/markdown.html
 
@@ -17,10 +26,10 @@ TARGETS=slides/gitet.html slides/markdown.html
 all: $(TARGETS)
 
 slides/gitet.html: gitet.md
-	pandoc -s --webtex -i -t slidy $< -o $@
+	$(PANDOC) $(INCREMENTAL) $< -o $@
 
 slides/markdown.html: markdown.md
-	pandoc -s -i -t dzslides $< -o $@
+	$(PANDOC) $(INCREMENTAL) $< -o $@
 
 build: clean all
 
