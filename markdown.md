@@ -4,6 +4,10 @@
 
 ------------------------------------------------------------------------
 
+![](http://funpicsworld.com/contents/disgusted-monday-cat.jpg)
+
+------------------------------------------------------------------------
+
 # Gitet
 
 Què ès _Gitet_?
@@ -18,13 +22,59 @@ Què ès _Gitet_?
 
 ------------------------------------------------------------------------
 
-# Algunes alternatives a _MarkDown_
+# Què és Markdown?
 
-- Texinfo
-- reStructuredText
-- AsciiDoc
+>- _Markdown_ és un llenguatge de marques extremadament simple,
+>- que permet escriure utilitzant simple text per després convertir-lo en altres formats.
+>- _Markdown_  va ser creat originalment per John Gruber i Aaron Swartz
+>- prenent inspiració en les convencions tradicionals a l&rsquo;hora de formatar text en correus electrònics.
 
 ------------------------------------------------------------------------
+
+# Algunes alternatives a MarkDown
+
+- Texinfo (Projecte GNU)
+- reStructuredText (documentació de Python)
+- AsciiDoc (documentació del Kernel de Linux)
+
+------------------------------------------------------------------------
+
+# És Markdown realment important?
+
+- Evolució del interés segons [Google Trends](https://www.google.com/trends/explore#q=markdown)
+- Llista d&rsquo;implementacions segons la [pàgina de la Wikipedia](https://en.wikipedia.org/wiki/Markdown)
+
+------------------------------------------------------------------------
+
+# Què veurem?
+
+------------------------------------------------------------------------
+
+# Software a usar
+
+A executar en un terminal:
+
+    sudo yum -y install geany geany-plugins-markdown
+    sudo yum -y install aspell aspell-ca
+
+També és practic usar _Google Chrome_ amb la extensió _MarkDown Preview Plus_ o equivalent.
+
+Podem corregit l&rsquo;ortografia dels documents fets amb Markdown amb ordres com aquesta:
+
+    aspell --lang=ca check README.md
+
+
+------------------------------------------------------------------------
+
+# Documentació sobre Markdown
+
+- [Documentació original de John Gruber](http://daringfireball.net/projects/markdown/)
+- [Xuleta de una pàgina](http://packetlife.net/media/library/16/Markdown.pdf)
+- [Xuleta de dues pàgines](http://stationinthemetro.com/wp-content/uploads/2013/04/Markdown_Cheat_Sheet_v1-1.pdf)
+
+------------------------------------------------------------------------
+
+![](http://memecrunch.com/meme/IR0M/that-s-all-folks/image.jpg)
 
 <!--
 vim:syntax=markdown:et:ts=4:sw=4:ai

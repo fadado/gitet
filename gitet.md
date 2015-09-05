@@ -4,6 +4,10 @@
 
 ------------------------------------------------------------------------
 
+![](http://funpicsworld.com/contents/disgusted-monday-cat.jpg)
+
+------------------------------------------------------------------------
+
 # Gitet
 
 Què ès _Gitet_?
@@ -27,7 +31,7 @@ Què ès _Gitet_?
 
 ------------------------------------------------------------------------
 
-# És _Git_ realment important?
+# És Git realment important?
 
 - Mira per exemple aquesta [comparativa](http://tinyurl.com/nr6grb3) a Google Trends
 - O el que li ha passat a [Google Code](http://www.engadget.com/2015/03/13/google-code-closing/)
@@ -38,7 +42,7 @@ Què ès _Gitet_?
 # Què veurem?
 
 - Repositoris locals, a GitHub i GitLab
-- Backup de projecte personal
+- Backup de directori personal
 - Backup de `/etc`
 - Wiki estàtic
 - Preparació i publicació de llibres
