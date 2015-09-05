@@ -31,6 +31,10 @@ slides/gitet.html: gitet.md
 slides/markdown.html: markdown.md
 	$(PANDOC) $(INCREMENTAL) $< -o $@
 
+########################################################################
+# Utilities
+########################################################################
+
 build: clean all
 
 clean:

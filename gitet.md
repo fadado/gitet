@@ -35,17 +35,49 @@ Què ès _Gitet_?
 
 ------------------------------------------------------------------------
 
-# Què veurem&hellip;
+# Què veurem?
 
-- Exemples
+- Repositoris locals, a GitHub i GitLab
+- Backup de projecte personal
+- Backup de `/etc`
+- Wiki estàtic
+- Preparació i publicació de llibres
+- Backup de fitxers de configuració
+- Flux de treball per desenvolupadors
+- &c.
 
 ------------------------------------------------------------------------
 
-# Què _no_ veurem&hellip;
+# Software a usar
 
-- Detalls tècnics
+A executar en un terminal:
+
+    sudo yum -y install git
+    sudo yum -y install tig
+    sudo yum -y install gitk
+    sudo yum -y install meld
+    sudo yum -y install etckeeper
 
 ------------------------------------------------------------------------
+
+# Configuració personal de Git
+
+A executar en un terminal:
+
+    git config --global user.email juanpalomo@...
+    git config --global user.name juanpalomo
+    git config --global color.ui true
+    git config --global color.status auto
+    git config --global color.branch auto
+    git config --global core.editor vim
+    git config --global diff.tool meld
+    git config --global merge.tool meld
+    git config --global merge.conflictstyle diff3
+    git config --global mergetool.prompt false
+
+------------------------------------------------------------------------
+
+![](http://memecrunch.com/meme/IR0M/that-s-all-folks/image.jpg)
 
 <!--
 vim:syntax=markdown:et:ts=4:sw=4:ai
