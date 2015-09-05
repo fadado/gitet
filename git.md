@@ -1,4 +1,4 @@
-% Gitet (=\^"\^=)
+% Gitet I (=\^"\^=)
 % Git i el seu ecosistema
 % Joan Ordinas &mdash; 2015-09-05
 
@@ -12,11 +12,11 @@
 
 Què és _Gitet_?
 
-- _Gitet_ és un petitet estudi de Git i el seu ecosistema
+- _Gitet_ és un petitet primer contacte amb Git i el seu ecosistema
 - _Gitet_ consta de dues presentacions:
     1. **Git i el seu ecosistema**
     2. **Markdown**
-- _Gitet_ està disponible en un repositori de GitHub: <https://github.com/fadado/gitet>
+- _Gitet_ està disponible en el repositori de GitHub <https://github.com/fadado/gitet>
 - _Gitet_ està escrit amb [Markdown](http://daringfireball.net/projects/markdown/) i generat amb [Pandoc](http://pandoc.org/)
 - _Gitet_ és un exemple de la filosofia [Eating your own dog food](https://en.wikipedia.org/wiki/Eating_your_own_dog_food)
 
@@ -31,6 +31,17 @@ Què és _Gitet_?
 
 ------------------------------------------------------------------------
 
+# Alternatives a Git
+
+Podem considerar aquestes alternatives com totalment _deprecated_.
+
+- [Mercurial](https://mercurial.selenic.com/)
+- [CVS](http://www.nongnu.org/cvs/)
+- [Subversion](https://subversion.apache.org/)
+- [SourceForge](http://sourceforge.net/)
+
+------------------------------------------------------------------------
+
 # És Git realment important?
 
 - Mira per exemple aquesta [comparativa](http://tinyurl.com/nr6grb3) a Google Trends
@@ -39,15 +50,14 @@ Què és _Gitet_?
 
 ------------------------------------------------------------------------
 
-# Què veurem?
+# Documentació sobre Git
 
-- Repositoris locals, a GitHub i GitLab
-- Backup de directori personal
-- Backup de `/etc`
-- Wiki estàtic
-- Preparació i publicació de llibres
-- Backup de fitxers de configuració
-- Flux de treball per desenvolupadors
+- [The simple guide. no deep shit ;)](http://rogerdudler.github.io/git-guide/)
+- [Tutorials a Atlassian](https://www.atlassian.com/git/tutorials/)
+- [Pro Git Book](http://git-scm.com/)
+- [Git Internals](http://opcode.org/peepcode-git.pdf)
+- [Diversos tutorials](http://git-scm.com/doc/ext)
+- [Git Flow](http://nvie.com/posts/a-successful-git-branching-model/)
 - &c.
 
 ------------------------------------------------------------------------
@@ -78,6 +88,20 @@ A executar en un terminal:
     git config --global merge.tool meld
     git config --global merge.conflictstyle diff3
     git config --global mergetool.prompt false
+
+------------------------------------------------------------------------
+
+# Què veurem?
+
+- Repositoris locals, a GitHub i GitLab
+- Backup de directori personal
+- Backup de `/etc`
+- Wiki estàtic
+- Documentació de projectes de software
+- Preparació i publicació de llibres
+- Backup de fitxers de configuració
+- Flux de treball per desenvolupadors
+- &c.
 
 ------------------------------------------------------------------------
 

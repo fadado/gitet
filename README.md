@@ -1,6 +1,6 @@
 # Gitet
 
-Un _petitet_ contacte amb Git: un **Gitet** **(=^"^=)**
+Un _petitet_  primer contacte amb Git: un **Gitet** **(=^"^=)**
 
 Per generar les presentacions localment:
 

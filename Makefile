@@ -17,7 +17,7 @@ INCREMENTAL=#--incremental
 
 PANDOC=$(DZSLIDES)
 
-TARGETS=slides/gitet.html slides/markdown.html
+TARGETS=slides/git.html slides/markdown.html
 
 ########################################################################
 # Rules
@@ -25,7 +25,7 @@ TARGETS=slides/gitet.html slides/markdown.html
 
 all: $(TARGETS)
 
-slides/gitet.html: gitet.md
+slides/git.html: git.md
 	$(PANDOC) $(INCREMENTAL) $< -o $@
 
 slides/markdown.html: markdown.md
