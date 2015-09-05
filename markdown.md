@@ -10,7 +10,7 @@
 
 # Gitet
 
-Què ès _Gitet_?
+Què és _Gitet_?
 
 - _Gitet_ és un petitet estudi de Git i el seu ecosistema
 - _Gitet_ consta de dues presentacions:
@@ -41,12 +41,25 @@ Què ès _Gitet_?
 
 # És Markdown realment important?
 
-- Evolució del interés segons [Google Trends](https://www.google.com/trends/explore#q=markdown)
+- Evolució del interès segons [Google Trends](https://www.google.com/trends/explore#q=markdown)
 - Llista d&rsquo;implementacions segons la [pàgina de la Wikipedia](https://en.wikipedia.org/wiki/Markdown)
 
 ------------------------------------------------------------------------
 
-# Què veurem?
+# Documentació sobre Markdown
+
+- [Documentació original de John Gruber](http://daringfireball.net/projects/markdown/)
+- [Xuleta d&rsquo;una pàgina](http://packetlife.net/media/library/16/Markdown.pdf)
+- [Xuleta de dues pàgines](http://stationinthemetro.com/wp-content/uploads/2013/04/Markdown_Cheat_Sheet_v1-1.pdf)
+
+------------------------------------------------------------------------
+
+# Què farem?
+
+- Editar Markdown amb Geany
+- Convertir Markdown a HTML, ODT, PDF, &c. amb [Pandoc](http://pandoc.org/)
+- Visualitzar Markdown una vegada pujat a GitHub o GitLab
+- Editar Markdown amb <http://dillinger.io/>
 
 ------------------------------------------------------------------------
 
@@ -55,6 +68,7 @@ Què ès _Gitet_?
 A executar en un terminal:
 
     sudo yum -y install geany geany-plugins-markdown
+    sudo yum -y install pandoc discount
     sudo yum -y install aspell aspell-ca
 
 També és practic usar _Google Chrome_ amb la extensió _MarkDown Preview Plus_ o equivalent.
@@ -62,15 +76,6 @@ També és practic usar _Google Chrome_ amb la extensió _MarkDown Preview Plus_
 Podem corregit l&rsquo;ortografia dels documents fets amb Markdown amb ordres com aquesta:
 
     aspell --lang=ca check README.md
-
-
-------------------------------------------------------------------------
-
-# Documentació sobre Markdown
-
-- [Documentació original de John Gruber](http://daringfireball.net/projects/markdown/)
-- [Xuleta de una pàgina](http://packetlife.net/media/library/16/Markdown.pdf)
-- [Xuleta de dues pàgines](http://stationinthemetro.com/wp-content/uploads/2013/04/Markdown_Cheat_Sheet_v1-1.pdf)
 
 ------------------------------------------------------------------------
 

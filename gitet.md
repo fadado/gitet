@@ -10,7 +10,7 @@
 
 # Gitet
 
-Què ès _Gitet_?
+Què és _Gitet_?
 
 - _Gitet_ és un petitet estudi de Git i el seu ecosistema
 - _Gitet_ consta de dues presentacions:
