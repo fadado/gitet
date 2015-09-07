@@ -40,4 +40,7 @@ build: clean all
 clean:
 	rm -f $(TARGETS)
 
+push:
+	for r in $$(git remote); do  git push $r ; done
+
 # vim:ts=8:sw=8:ai

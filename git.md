@@ -16,7 +16,7 @@ Què és _Gitet_?
 - _Gitet_ consta de dues presentacions:
     1. **Git i el seu ecosistema**
     2. **Markdown**
-- _Gitet_ està disponible en el repositori de GitHub <https://github.com/fadado/gitet>
+- _Gitet_ està disponible en un repositori de [GitHub](https://github.com/fadado/gitet) i un de [GitLab](https://gitlab.com/jordinas/gitet/)
 - _Gitet_ està escrit amb [Markdown](http://daringfireball.net/projects/markdown/) i generat amb [Pandoc](http://pandoc.org/)
 - _Gitet_ és un exemple de la filosofia [Eating your own dog food](https://en.wikipedia.org/wiki/Eating_your_own_dog_food)
 
@@ -64,22 +64,21 @@ Podem considerar aquestes alternatives com totalment _deprecated_.
 
 # Software a usar
 
-A executar en un terminal:
+A executar en un terminal com _root_:
 
-    sudo yum -y install git
-    sudo yum -y install tig
-    sudo yum -y install gitk
-    sudo yum -y install meld
-    sudo yum -y install etckeeper
+    yum -y install git
+    yum -y install tig gitk gitg
+    yum -y install meld
+    yum -y install etckeeper
 
 ------------------------------------------------------------------------
 
 # Configuració personal de Git
 
-A executar en un terminal:
+A executar en un terminal (edita el nom i email de l&rsquo;usuari):
 
-    git config --global user.email juanpalomo@...
-    git config --global user.name juanpalomo
+    git config --global user.email <juanpalomo@...>
+    git config --global user.name <juanpalomo>
     git config --global color.ui true
     git config --global color.status auto
     git config --global color.branch auto
@@ -93,14 +92,14 @@ A executar en un terminal:
 
 # Què veurem?
 
-- Repositoris locals, a GitHub i GitLab
-- Backup de directori personal
-- Backup de `/etc`
+- Repositoris locals, a [GitHub](https://github.com/) o [GitLab](https://gitlab.com/)
+- Backup de [projecte personal](https://gitlab.com/jordinas/gitet)
+- Backup de `/etc` amb [etckeeper](http://etckeeper.branchable.com/)
+- Preparació i publicació de [llibres](https://github.com/leandono/librojquery)
+- Backup de [fitxers de configuració](https://gitlab.com/jordinas/dotfiles)
+- Flux de treball per desenvolupadors ([nvie](http://nvie.com/posts/a-successful-git-branching-model/), [atlassian](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow))
 - Wiki estàtic
 - Documentació de projectes de software
-- Preparació i publicació de llibres
-- Backup de fitxers de configuració
-- Flux de treball per desenvolupadors
 - &c.
 
 ------------------------------------------------------------------------

@@ -16,7 +16,7 @@ Què és _Gitet_?
 - _Gitet_ consta de dues presentacions:
     1. **Git i el seu ecosistema**
     2. **Markdown**
-- _Gitet_ està disponible en el repositori de GitHub <https://github.com/fadado/gitet>
+- _Gitet_ està disponible en un repositori de [GitHub](https://github.com/fadado/gitet) i un de [GitLab](https://gitlab.com/jordinas/gitet/)
 - _Gitet_ està escrit amb [Markdown](http://daringfireball.net/projects/markdown/) i generat amb [Pandoc](http://pandoc.org/)
 - _Gitet_ és un exemple de la filosofia [Eating your own dog food](https://en.wikipedia.org/wiki/Eating_your_own_dog_food)
 
@@ -60,11 +60,11 @@ Aquestes alternatives són molt més complexes i _potents_ que MarkDown.
 
 # Software a usar
 
-A executar en un terminal:
+A executar en un terminal com _root_:
 
-    sudo yum -y install geany geany-plugins-markdown
-    sudo yum -y install pandoc discount
-    sudo yum -y install aspell aspell-ca
+    yum -y install geany geany-plugins-markdown
+    yum -y install pandoc discount
+    yum -y install aspell aspell-ca
 
 També és practic usar _Google Chrome_ amb la extensió _MarkDown Preview Plus_ o equivalent.
 
@@ -78,8 +78,8 @@ Podem corregit l&rsquo;ortografia dels documents fets amb Markdown amb ordres co
 
 - Crear un repositori local de Git pel nostre projecte
 - Editar Markdown amb Geany
-- Convertir Markdown a HTML, ODT, PDF, &c. amb Pandoc
-- Visualitzar Markdown una vegada pujat a GitHub o GitLab
+- Convertir Markdown a HTML, ODT, PDF, &c. amb [Pandoc](http://pandoc.org/demos.html)
+- Visualitzar Markdown una vegada pujat a [GitHub](https://github.com/) o [GitLab](https://gitlab.com/)
 - Editar Markdown amb <http://dillinger.io/>
 - Modificar Gitet i pujar els canvis a GitHub
 - &c.

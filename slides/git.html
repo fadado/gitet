@@ -98,7 +98,7 @@
 <li><strong>Git i el seu ecosistema</strong></li>
 <li><strong>Markdown</strong></li>
 </ol></li>
-<li><em>Gitet</em> està disponible en el repositori de GitHub <a href="https://github.com/fadado/gitet">https://github.com/fadado/gitet</a></li>
+<li><em>Gitet</em> està disponible en un repositori de <a href="https://github.com/fadado/gitet">GitHub</a> i un de <a href="https://gitlab.com/jordinas/gitet/">GitLab</a></li>
 <li><em>Gitet</em> està escrit amb <a href="http://daringfireball.net/projects/markdown/">Markdown</a> i generat amb <a href="http://pandoc.org/">Pandoc</a></li>
 <li><em>Gitet</em> és un exemple de la filosofia <a href="https://en.wikipedia.org/wiki/Eating_your_own_dog_food">Eating your own dog food</a></li>
 </ul>
@@ -144,18 +144,17 @@
 </section>
 <section id="software-a-usar" class="slide level1">
 <h1>Software a usar</h1>
-<p>A executar en un terminal:</p>
-<pre><code>sudo yum -y install git
-sudo yum -y install tig
-sudo yum -y install gitk
-sudo yum -y install meld
-sudo yum -y install etckeeper</code></pre>
+<p>A executar en un terminal com <em>root</em>:</p>
+<pre><code>yum -y install git
+yum -y install tig gitk gitg
+yum -y install meld
+yum -y install etckeeper</code></pre>
 </section>
 <section id="configuració-personal-de-git" class="slide level1">
 <h1>Configuració personal de Git</h1>
-<p>A executar en un terminal:</p>
-<pre><code>git config --global user.email juanpalomo@...
-git config --global user.name juanpalomo
+<p>A executar en un terminal (edita el nom i email de l’usuari):</p>
+<pre><code>git config --global user.email &lt;juanpalomo@...&gt;
+git config --global user.name &lt;juanpalomo&gt;
 git config --global color.ui true
 git config --global color.status auto
 git config --global color.branch auto
@@ -168,14 +167,14 @@ git config --global mergetool.prompt false</code></pre>
 <section id="què-veurem" class="slide level1">
 <h1>Què veurem?</h1>
 <ul>
-<li>Repositoris locals, a GitHub i GitLab</li>
-<li>Backup de directori personal</li>
-<li>Backup de <code>/etc</code></li>
+<li>Repositoris locals, a <a href="https://github.com/">GitHub</a> o <a href="https://gitlab.com/">GitLab</a></li>
+<li>Backup de <a href="https://gitlab.com/jordinas/gitet">projecte personal</a></li>
+<li>Backup de <code>/etc</code> amb <a href="http://etckeeper.branchable.com/">etckeeper</a></li>
+<li>Preparació i publicació de <a href="https://github.com/leandono/librojquery">llibres</a></li>
+<li>Backup de <a href="https://gitlab.com/jordinas/dotfiles">fitxers de configuració</a></li>
+<li>Flux de treball per desenvolupadors (<a href="http://nvie.com/posts/a-successful-git-branching-model/">nvie</a>, <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow">atlassian</a>)</li>
 <li>Wiki estàtic</li>
 <li>Documentació de projectes de software</li>
-<li>Preparació i publicació de llibres</li>
-<li>Backup de fitxers de configuració</li>
-<li>Flux de treball per desenvolupadors</li>
 <li>&amp;c.</li>
 </ul>
 </section>
