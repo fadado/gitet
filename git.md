@@ -104,6 +104,25 @@ A executar en un terminal (edita el nom i email de l&rsquo;usuari):
 
 ------------------------------------------------------------------------
 
+# Cicle de treball amb Git
+
+    # Crear directori de projecte
+    mkdir PROJECTE; cd PROJECTE
+    git init
+
+    # Crear fitxers de text a desenvolupar
+    touch FITXER
+    git add FITXER
+
+    # Repetir:
+        # editar FITXER...
+        # si FITXER ok i estable
+            git commit -am 'Missatge'
+        # si caos absolut
+            git checkout FITXER
+
+------------------------------------------------------------------------
+
 ![](http://memecrunch.com/meme/IR0M/that-s-all-folks/image.jpg)
 
 <!--

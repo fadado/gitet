@@ -178,6 +178,23 @@ git config --global mergetool.prompt false</code></pre>
 <li>&amp;c.</li>
 </ul>
 </section>
+<section id="cicle-de-treball-amb-git" class="slide level1">
+<h1>Cicle de treball amb Git</h1>
+<pre><code># Crear directori de projecte
+mkdir PROJECTE; cd PROJECTE
+git init
+
+# Crear fitxers de text a desenvolupar
+touch FITXER
+git add FITXER
+
+# Repetir:
+    # editar FITXER...
+    # si FITXER ok i estable
+        git commit -am &#39;Missatge&#39;
+    # si caos absolut
+        git checkout FITXER</code></pre>
+</section>
 <section class="slide level1">
 
 <figure>
