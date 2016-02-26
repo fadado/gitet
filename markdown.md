@@ -53,8 +53,8 @@ Aquestes alternatives són molt més complexes i _potents_ que MarkDown.
 - [Documentació original de John Gruber](http://daringfireball.net/projects/markdown/)
 - [Xuleta d&rsquo;una pàgina](http://packetlife.net/media/library/16/Markdown.pdf)
 - [Xuleta de dues pàgines](http://stationinthemetro.com/wp-content/uploads/2013/04/Markdown_Cheat_Sheet_v1-1.pdf)
-- [Extensions a Markdown de GitHub](https://help.github.com/articles/github-flavored-markdown/)
-- [Extensions a Markdown de Pandoc](http://pandoc.org/demo/example9/pandocs-markdown.html)
+- [Extensions a Markdown de GitHub](https://help.github.com/categories/writing-on-github/)
+- [Extensions a Markdown de Pandoc](http://pandoc.org/README.html#pandocs-markdown)
 
 ------------------------------------------------------------------------
 
