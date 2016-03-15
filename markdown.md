@@ -1,10 +1,10 @@
 % Gitet II (=\^"\^=)
 % MarkDown
-% Joan Ordinas &mdash; 2015-09-05
+% Joan Ordinas &mdash; 2016-03-15
 
 ------------------------------------------------------------------------
 
-![](http://funpicsworld.com/contents/disgusted-monday-cat.jpg)
+![](monday.jpg)
 
 ------------------------------------------------------------------------
 
@@ -60,10 +60,10 @@ Aquestes alternatives són molt més complexes i _potents_ que MarkDown.
 
 # Software a usar
 
-A executar en un terminal com _root_:
+A executar en un terminal com _root_ (`yum` o `dnf`):
 
     yum -y install geany geany-plugins-markdown
-    yum -y install pandoc discount
+    yum -y install pandoc texlive
     yum -y install aspell aspell-ca
 
 També és practic usar _Google Chrome_ amb la extensió _MarkDown Preview Plus_ o equivalent.
@@ -86,7 +86,7 @@ Podem corregit l&rsquo;ortografia dels documents fets amb Markdown amb ordres co
 
 ------------------------------------------------------------------------
 
-![](http://memecrunch.com/meme/IR0M/that-s-all-folks/image.jpg)
+![](end.jpg)
 
 <!--
 vim:syntax=markdown:et:ts=4:sw=4:ai

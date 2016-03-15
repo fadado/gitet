@@ -4,7 +4,7 @@
 
 ------------------------------------------------------------------------
 
-![](http://funpicsworld.com/contents/disgusted-monday-cat.jpg)
+![](monday.jpg)
 
 ------------------------------------------------------------------------
 
@@ -123,7 +123,7 @@ A executar en un terminal (edita el nom i email de l&rsquo;usuari):
 
 ------------------------------------------------------------------------
 
-![](http://memecrunch.com/meme/IR0M/that-s-all-folks/image.jpg)
+![](end.jpg)
 
 <!--
 vim:syntax=markdown:et:ts=4:sw=4:ai
